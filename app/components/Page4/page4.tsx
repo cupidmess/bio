@@ -20,7 +20,7 @@ const items = [
 Inter-College Hackathons: Consistently advanced to the semi-finals in multiple inter-college hackathons, showcasing problem-solving skills, technical expertise, and the ability to deliver under tight deadlines and working consistently for 36 hours.` },
 ];
 
-export default function page4 (){
+export default function Page4 (){
   const [selectedId, setSelectedId] = useState<number | null>(null);
 
   return (
