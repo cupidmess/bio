@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'ComicNeue-Regular';
+  src: url('/fonts/ComicNeue-Regular.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Regular';
+  src: url('/fonts/LeagueSpartan-Regular.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceMono-Regular';
+  src: url('/fonts/SpaceMono-Regular.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Medium';
+  src: url('/fonts/LeagueSpartan-Medium.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ComicNeue-BoldItalic';
+  src: url('/fonts/ComicNeue-BoldItalic.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ComicNeue-Bold';
+  src: url('/fonts/ComicNeue-Bold.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ComicNeue-Italic';
+  src: url('/fonts/ComicNeue-Italic.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ComicNeue-Light';
+  src: url('/fonts/ComicNeue-Light.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ComicNeue-LightItalic';
+  src: url('/fonts/ComicNeue-LightItalic.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Black';
+  src: url('/fonts/LeagueSpartan-Black.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: url('/fonts/LeagueSpartan-Bold.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-ExtraBold';
+  src: url('/fonts/LeagueSpartan-ExtraBold.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-ExtraLight';
+  src: url('/fonts/LeagueSpartan-ExtraLight.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Light';
+  src: url('/fonts/LeagueSpartan-Light.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-SemiBold';
+  src: url('/fonts/LeagueSpartan-SemiBold.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Thin';
+  src: url('/fonts/LeagueSpartan-Thin.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-VariableFont_wght';
+  src: url('/fonts/LeagueSpartan-VariableFont_wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceMono-Bold';
+  src: url('/fonts/SpaceMono-Bold.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceMono-BoldItalic';
+  src: url('/fonts/SpaceMono-BoldItalic.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceMono-Italic';
+  src: url('/fonts/SpaceMono-Italic.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar{
+  font-family:"SpaceMono-Regular" ;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 3rem;
+  gap: 5rem;
+  font-size: 16px;
+
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:transparent;
+  transition: transform 0.3s ease-in-out;
+  backdrop-filter: blur(10px); /* Adjust blur intensity */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+}
+
+.show {
+  transform: translateY(0);
+}
+
+.hide {
+  transform: translateY(-100%);
+}
+
+.name,.skills,.education,.experience,.project,.contact{
+  padding-top: 2rem;
+}
+.but{ 
+  font-family: "SpaceMono-Bold";
+  background-color: #38B6FF;
+  color: #161616;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  height: 30px;
+  text-transform: uppercase;
+}
+.lineanddot{ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 1.25rem;
+}
+.line{ 
+  width: 290px;
+  height: 2px;
+  background-color: white;
+}
+.navbar:hover {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.active {
+  color: #38B6FF;
+  font-weight: bold;
+}
+.activeName {
+  font-weight: bold;
+  color: #38B6FF;
+}
+

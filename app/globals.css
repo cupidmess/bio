@@ -2,20 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: url('/background.svg') no-repeat center center fixed;
+  background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.rgb-glow {
+  position: fixed;
+  width: 500px;
+  height: 250px;
+  filter: blur(60px);
+  opacity: 1;
+  pointer-events: none; /* Prevents blocking interactions */
+}
+
+/* First Glow */
+.glow-one {
+  background: radial-gradient(ellipse at center, rgba(0, 128, 128, 0.7) 20%, rgba(0, 150, 255, 0.5) 50%, rgba(0,0,0,0) 80%);
+  animation: moveGlowOne 10s infinite alternate ease-in-out;
+}
+
+/* Second Glow */
+.glow-two {
+  background: radial-gradient(ellipse at center, rgba(255, 0, 150, 0.5) 0%, rgba(147, 0, 209, 0.7) 40%, rgba(0,0,0,0) 80%);
+  animation: moveGlowTwo 12s infinite alternate ease-in-out;
+}
+
+@keyframes moveGlowOne {
+  0% { top: 2%; left: 10%; }   /* Moves higher & more left */
+  25% { top: 30%; left: 40%; }
+  50% { top: 70%; left: 20%; }
+  75% { top: 40%; left: 5%; }  /* Moves even more left */
+  100% { top: 5%; left: 30%; } /* Returns to top */
+}
+
+@keyframes moveGlowTwo {
+  0% { top: 80%; left: 60%; }  /* Slightly higher */
+  25% { top: 50%; left: 30%; }
+  50% { top: 10%; left: 50%; } /* Moves to the top */
+  75% { top: 30%; left: 10%; } /* Moves more left */
+  100% { top: 85%; left: 5%; } /* Moves back down & left */
+}
+

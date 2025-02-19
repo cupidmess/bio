@@ -1,0 +1,200 @@
+
+@font-face {
+  font-family: 'ComicNeue-Regular';
+  src: url('/fonts/ComicNeue-Regular.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Regular';
+  src: url('/fonts/LeagueSpartan-Regular.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceMono-Regular';
+  src: url('/fonts/SpaceMono-Regular.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Medium';
+  src: url('/fonts/LeagueSpartan-Medium.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ComicNeue-BoldItalic';
+  src: url('/fonts/ComicNeue-BoldItalic.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ComicNeue-Bold';
+  src: url('/fonts/ComicNeue-Bold.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ComicNeue-Italic';
+  src: url('/fonts/ComicNeue-Italic.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ComicNeue-Light';
+  src: url('/fonts/ComicNeue-Light.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ComicNeue-LightItalic';
+  src: url('/fonts/ComicNeue-LightItalic.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Black';
+  src: url('/fonts/LeagueSpartan-Black.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: url('/fonts/LeagueSpartan-Bold.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-ExtraBold';
+  src: url('/fonts/LeagueSpartan-ExtraBold.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-ExtraLight';
+  src: url('/fonts/LeagueSpartan-ExtraLight.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Light';
+  src: url('/fonts/LeagueSpartan-Light.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-SemiBold';
+  src: url('/fonts/LeagueSpartan-SemiBold.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-Thin';
+  src: url('/fonts/LeagueSpartan-Thin.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeagueSpartan-VariableFont_wght';
+  src: url('/fonts/LeagueSpartan-VariableFont_wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceMono-Bold';
+  src: url('/fonts/SpaceMono-Bold.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceMono-BoldItalic';
+  src: url('/fonts/SpaceMono-BoldItalic.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceMono-Italic';
+  src: url('/fonts/SpaceMono-Italic.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+.left{
+  width: 40%;
+}
+.body{
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding-bottom: 12rem;
+}
+.imgplus{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tit1{
+  font-family: "LeagueSpartan-Bold";
+  font-size: 23px;
+}
+.stit{
+  font-family: "LeagueSpartan-Regular";
+}
+.icon{
+  height: 50px;
+  width: auto;
+  margin-right: 1.5rem;
+}
+.listItem {
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.exp{
+  color: rgb(162, 162, 162);
+
+}
+.right{
+  width: 60%;
+}
+.titles{
+  display: flex;
+  flex-direction: column;
+}
+.listItem:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.selected {
+  color: white; /* Selected color */
+}
+.text{
+  color: white;
+  width: 80%;
+  font-family: "LeagueSpartan-Regular";
+  font-size: 17px;
+}
+.timeline{
+  font-family: "LeagueSpartan-Bold";
+  font-size: 94.8px;
+  color: transparent; /* Make text transparent */
+  -webkit-text-stroke: 1px white; /* White outline */
+  margin-left: 9rem;
+}
+.linesep{ 
+  background-color: #38B6FF;
+  height: 8px;
+  width: 40%;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+.heading{
+  font-family: "LeagueSpartan-Bold";
+  text-transform: uppercase;
+  font-size: 42px;
+  margin-top: 1.7rem;
+}
