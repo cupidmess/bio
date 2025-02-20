@@ -12,7 +12,10 @@ body {
 @media (max-width:768px){
   body {
     margin-right: 0rem;
+    background-size: cover;
     padding-right: 0rem;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 .rgb-glow {
