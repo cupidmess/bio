@@ -12,7 +12,7 @@ const page2 = () => {
       <div className = {style.right}>
         <div className = {style.heading}>My Biography</div>
         <div className = {style.linesep}></div>
-        <div className = {style.content}>With expertise in MERN, Django, Next.js, and Flutter, I craft sleek, high-performance web and mobile applications that deliver seamless user experiences. Whether it's building scalable full-stack platforms or integrating AI-driven features, I love tackling challenges that push the limits of technology.
+        <div className = {style.content}>With expertise in MERN, Django, Next.js, and Flutter, I craft sleek, high-performance web and mobile applications that deliver seamless user experiences. Whether it&apos;s building scalable full-stack platforms or integrating AI-driven features, I love tackling challenges that push the limits of technology.
         <br></br>
         Beyond coding, I thrive on innovation and problem-solving, always looking for ways to make digital experiences smarter and more engaging. If it&apos;s a project that demands a blend of tech, creativity, and impact, count me in! Let&apos;s build something awesome.</div>
         <div className = {style.skills}>Skills & Interests</div>
