@@ -187,4 +187,8 @@
   font-weight: bold;
   color: #38B6FF;
 }
-
+@media(max-width:768px){
+  .navbar{
+    display: none;
+  }
+}
