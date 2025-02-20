@@ -31,7 +31,7 @@ export default function Page4 (){
           <div className = {style.linesep}></div>
           <div className = {style.experiences}>
             <div className = {style.exp}>
-          <ul>
+          <ul className = {style.listhere}>
           {items.map((item) => (
             <li
               key={item.id}

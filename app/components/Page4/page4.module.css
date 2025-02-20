@@ -198,3 +198,97 @@
   font-size: 42px;
   margin-top: 1.7rem;
 }
+@media (max-width:768px){
+  .left{
+    width: 100%;
+  }
+  .body{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 6rem;
+  }
+  .imgplus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .tit1{
+    font-family: "LeagueSpartan-Bold";
+    font-size: 20px;
+  }
+  .stit{
+    font-family: "LeagueSpartan-Regular";
+  }
+  .icon{
+    height: 50px;
+    width: auto;
+    margin-right: 0.5rem;
+    display: none;
+  }
+  .listItem {
+    padding: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .experiences{
+    display: flex;
+    flex-direction: row;
+  }
+  .exp{
+    color: rgb(162, 162, 162);
+    display: flex;
+    flex-direction: row;
+  }
+  .right{
+    width: 100%;
+  }
+  .listhere{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .titles{
+    display: flex;
+    flex-direction: column;
+  }
+  .listItem:hover {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .selected {
+    color: white; /* Selected color */
+  }
+  .text{
+    color: white;
+    width: 100%;
+    font-family: "LeagueSpartan-Regular";
+    font-size: 17px;
+    margin-top: 2rem;
+  }
+  .timeline{
+    font-family: "LeagueSpartan-Bold";
+    font-size: 94.8px;
+    color: transparent; /* Make text transparent */
+    -webkit-text-stroke: 1px white; /* White outline */
+    margin-left: 9rem;
+    display: none;
+  }
+  .linesep{ 
+    background-color: #38B6FF;
+    height: 8px;
+    width: 40%;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+  }
+  .heading{
+    font-family: "LeagueSpartan-Bold";
+    text-transform: uppercase;
+    font-size: 42px;
+    margin-top: 1.7rem;
+  }
+}

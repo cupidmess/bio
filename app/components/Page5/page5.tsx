@@ -67,7 +67,7 @@ const page5 = () => {
           <div className = {style.pname}>B X D (Work Anywhere)</div>
           <div className = {style.pb1}>content goes here Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium dicta incidunt aperiam eum. Nobis perspiciatis at non maxime pariatur modi aperiam incidunt quos veniam tempora perferendis repudiandae, animi recusand Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique necessitatibus perspiciatis corporis accusamus,
           loir</div>
-          <div className = {style.subcont}>
+          <div className = {style.subcont1}>
               <div className = {style.icon}>
               <Link href="https://github.com/cupidmess/current_repo" target="_blank" rel="noopener noreferrer">
                 <FaGithub/>
@@ -87,7 +87,7 @@ const page5 = () => {
           <div className = {style.pname}>API Management</div>
           <div className = {style.pb1}>content goes here Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium dicta incidunt aperiam eum. Nobis perspiciatis at non maxime pariatur modi aperiam incidunt quos veniam tempora perferendis repudiandae, animi recusand Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique necessitatibus perspiciatis corporis accusamus,
           loir</div>
-          <div className = {style.subcont}>
+          <div className = {style.subcont1}>
               <div className = {style.icon}>
               <Link href="https://github.com/cupidmess/current_repo" target="_blank" rel="noopener noreferrer">
                 <FaGithub/>

@@ -211,3 +211,99 @@
 .detail:hover::after {
   width: 100%; /* Expands the underline */
 }
+
+@media (max-width:768px){
+  .body{
+    color: white;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+ }
+ .heading,.stit,.shreya{
+   display: flex;
+   justify-content: center;
+ }
+ .contactcards{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   margin-top: 3rem;
+ }
+ .heading{
+   font-family: "LeagueSpartan-Bold";
+   font-size: 42px;
+   text-transform: uppercase;
+ }
+ .stit{
+   font-family: "SpaceMono-BoldItalic";
+   color: #38B6FF;
+   font-size: 18px;
+ }
+ .cc{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ }
+ .logo{
+   display: flex;
+   justify-content: center;
+ }
+ .log{
+   font-size: 65px;
+   color: #38B6FF;
+   margin-bottom: 1rem;
+ }
+ .log:hover{
+   color: white;
+   transition: color 0.5s ease-in-out; /* Smooth transition */
+ }
+ .name{
+   font-family: "LeagueSpartan-Bold";
+   font-size: 21px;
+ }
+ .detail{
+   font-family: "LeagueSpartan-Regular";
+   font-size: 16px;
+ }
+ .shreya {
+   margin-top: 2.5rem;
+   font-size: 40px;
+   font-weight: bold;
+   color: transparent; /* Makes the inside hollow */
+   -webkit-text-stroke: 2px white; 
+   background: linear-gradient(to right, white 50%, transparent 50%);
+   background-size: 200% 100%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   transition: background-position 1.5s ease-in-out;
+   background-position: 100% 0;
+ }
+ 
+ .shreya:hover {
+   background-position: 0 0; /* Moves gradient to fill text */
+   cursor: pointer;
+ }
+ .detail{
+   display: inline-block;
+   position: relative;
+ }
+ .detail::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: -5px; /* Adjusts underline position */
+   width: 0;
+   height: 3px;
+   background-color: #38B6FF; /* Underline color */
+   transition: width 0.4s ease-in-out;
+ }
+ 
+ .detail:hover::after {
+   width: 100%; /* Expands the underline */
+ }
+ 
+}

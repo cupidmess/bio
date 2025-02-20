@@ -202,7 +202,7 @@
   margin-left: 4.3rem;
   margin-top: 2rem;
 }
-.subcont{
+.subcont,.subcont1{
   font-family: "LeagueSpartan-Regular";
   margin-left: 4.3rem;
   margin-top: 1rem;
@@ -356,4 +356,258 @@ margin-left: 4rem;
 
 .rightp1:hover ~ .leftp1 {
   pointer-events: none; /* Temporarily disable interaction with leftp1 */
+}
+@media (max-width:768px){
+  .body{
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2.5rem;
+  }
+  .linesep{ 
+    background-color: #38B6FF;
+    height: 8px;
+    width: 42%;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+  }
+  .heading{
+    font-family: "LeagueSpartan-Bold";
+    text-transform: uppercase;
+    font-size: 42px;
+    margin-top: 1.7rem;
+  }
+  .threeboxes{
+    display: flex;
+    flex-direction: column;
+  }
+  .subcont1{
+    margin-left: 1.8rem;
+  }
+  .box1,.box2,.box3{
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .box1{
+    padding-right: 3rem;
+    border: 0.5px;
+    display: none;
+  }
+  .titles{
+    color: white;
+    font-size: 33px;
+    text-transform: uppercase;
+    font-family: "SpaceMono-Bold";
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    transition:  0.3s ease, transform 0.3s ease;
+  }
+  .titles:hover{
+    color: #38B6FF;
+    cursor: pointer;
+  }
+  .box2{
+    padding-left: 1.5rem;
+    border: 0.5px;
+    padding-right: 0rem;
+   
+  }
+  .box3{
+    padding-left: 0rem;
+  }
+  .img2{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  .phntxt,.txt2,.imgtxt3{
+    font-size: 20px;
+    font-family: "LeagueSpartan-Regular";
+    color: rgb(164, 164, 164);
+    display: none;
+  }
+  .phone1{
+    margin-right: 3rem;
+  }
+  .img3{
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+  }
+  .ss,.ss2{
+    margin-left: 0rem;
+  }
+  .images{
+    margin-right: 3rem;
+  }
+  .content{
+    font-family: "LeagueSpartan-Regular";
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+  .subcont{
+    font-family: "LeagueSpartan-Regular";
+    margin-left:0rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .bcont{
+    font-family: "LeagueSpartan-Regular";
+    font-size: 20px;
+    display: none;
+  }
+  .icon{
+    margin-right: 1rem;
+    color: gray;
+    font-size: 24px;
+    transition: 0.3s ease, transform 0.3s ease;
+  }
+  .icon:hover{
+    color: white;
+  }
+  .sc1:hover{
+    cursor: pointer;
+  }
+  .sc2:hover{
+    cursor: pointer;
+  }
+  .sc3:hover{
+    cursor: pointer;
+  }
+  .sc1,.sc2,.sc3{
+    font-size: 20px;
+    margin-right: 0.5rem;
+    position: relative;
+    text-decoration: none;
+  }
+  .sc2,.sc3{
+    margin-left: 0.5rem;
+  }
+  
+  .sc1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background-color: #38B6FF;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sc1:hover::after {
+    transform: scaleX(1);
+  }
+  .sc2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background-color: #38B6FF;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sc2:hover::after {
+    transform: scaleX(1);
+  }
+  .sc3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background-color:#38B6FF;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sc3:hover::after {
+    transform: scaleX(1);
+  }
+  .image3{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 8rem;
+  }
+  .miniprojects{
+    margin-top: 2.5rem;
+  }
+  .project2,.project3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .project3{
+    margin-top: 2.5rem;
+  }
+  .box3{
+    display: none;
+  }
+  .phon2{
+    display: none;
+  }
+  .ph1,.pname,.pb1{
+  margin-left: 2rem;
+  }
+  .ph1{
+    font-size: 18px;
+    font-family: "SpaceMono-Regular";
+    color: #38B6FF;
+  }
+  .pname{
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    font-family: "LeagueSpartan-SemiBold";
+  }
+  .pb1{
+    background-color: rgb(28, 28, 28);
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+    font-family: "LeagueSpartan-Regular";
+    box-shadow: black 1px 1px 12px 2px;
+  }
+  .rightp1 {
+    position: absolute;
+    margin-left: 0rem;
+    transition: transform 0.5s ease-in-out,  filter 0.5s ease-in-out;
+    filter: brightness(45%);
+  }
+  
+  .rightp1:hover {
+    filter: brightness(100%);
+    transform: scale(1.02);
+  }
+  
+  .freelance:hover{
+    filter: brightness(100%);
+    transform: scale(1.02);
+  }
+  .freelance {
+    display: none;
+    width: 630px;
+    border-radius: 10px;
+    transition:transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+  }
+  
+  .leftp1 {
+    position: relative;
+    width: 85%;
+  
+  }
+
+  
+  .rightp1:hover ~ .leftp1 {
+    pointer-events: none; /* Temporarily disable interaction with leftp1 */
+  }
+  
 }

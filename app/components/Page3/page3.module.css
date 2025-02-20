@@ -171,3 +171,58 @@
   font-family: "LeagueSpartan-Regular";
   font-size: 18px;
 }
+@media (max-width :768px){
+  .body{
+    color: white;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+    padding-top: 0.5rem;
+  }
+  .left,.right{
+    width: 100%;
+  }
+  .heading{
+    font-family: "LeagueSpartan-Bold";
+    text-transform: uppercase;
+    font-size: 42px;
+  }
+  .left{
+    margin-top: 12%;
+  }
+  .linesep{ 
+    background-color: #38B6FF;
+    height: 8px;
+    width: 40%;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+  }
+  .content{
+    font-family: "LeagueSpartan-Regular";
+    font-size: 18px;
+    width: 95%;
+    display: none;
+  }
+  .timeline{
+    font-family: "LeagueSpartan-Bold";
+    font-size: 64.8px;
+    color: transparent; /* Make text transparent */
+    -webkit-text-stroke: 1px white; /* White outline */
+  }
+  .rightcont{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .head{
+    font-family: "LeagueSpartan-SemiBold";
+    font-size: 22.9px;
+  }
+  .subcont{
+    font-family: "LeagueSpartan-Regular";
+    font-size: 18px;
+  }
+}
