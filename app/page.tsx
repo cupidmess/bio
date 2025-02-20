@@ -6,6 +6,7 @@ import Page3 from "./components/Page3/page3";
 import Page4 from "./components/Page4/page4";
 import Footer from "./components/Footer/Footer";
 import Page5 from "./components/Page5/page5"
+import Page6 from "./components/Page6/page6"
 export default function Home() {
   return (
     <div>
@@ -25,6 +26,11 @@ export default function Home() {
       <FadeInSection>
         <div id = "project">
           <Page5/>
+        </div>
+      </FadeInSection>
+      <FadeInSection>
+        <div id = "contact">
+          <Page6/>
         </div>
       </FadeInSection>
       <Footer/>
