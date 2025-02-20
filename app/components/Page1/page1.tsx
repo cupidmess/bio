@@ -11,7 +11,7 @@ const page1 = () => {
         <div className = {style.name}>I&apos;m Shreya Bhoir</div>
         <div className = {style.button}>PROFESSIONAL WEB DEVELOPER</div>
         <div className = {style.content}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet massa sed leo molestie ultrices in non mi. Suspendisse mollis nisl ac aliquet pretium. Suspendisse dignissim, odio non hendrerit suscipit, lorem ipsum tempus tortor, suscipit vestibulum velit quam nec nibh. 
+        I turn ideas into sleek, functional, and engaging web experiences. With a knack for Next.js, React, and Django, I craft scalable applications that don&apos;t just work—they <i>flow</i>. 
         </div>
         </div>
         <div className = {style.right}>

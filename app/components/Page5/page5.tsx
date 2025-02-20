@@ -65,8 +65,7 @@ const page5 = () => {
           <div className = {style.leftp1}>
           <div className = {style.ph1}>Featured Projects</div>
           <div className = {style.pname}>B X D (Work Anywhere)</div>
-          <div className = {style.pb1}>content goes here Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium dicta incidunt aperiam eum. Nobis perspiciatis at non maxime pariatur modi aperiam incidunt quos veniam tempora perferendis repudiandae, animi recusand Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique necessitatibus perspiciatis corporis accusamus,
-          loir</div>
+          <div className = {style.pb1}>In a high-intensity 36-hour hackathon, I led a team of 6 to develop a groundbreaking freelancing platform, orchestrating seamless integration of a dynamic frontend and scalable backend to revolutionize internship and freelance opportunities for students. By incorporating advanced machine learning algorithms, we enabled data-driven market insights, boosting user decision-making efficiency by 40%. </div>
           <div className = {style.subcont1}>
               <div className = {style.icon}>
               <Link href="https://github.com/cupidmess/current_repo" target="_blank" rel="noopener noreferrer">
@@ -85,11 +84,10 @@ const page5 = () => {
           <div className = {style.leftp1}>
           <div className = {style.ph1}>Featured Projects</div>
           <div className = {style.pname}>API Management</div>
-          <div className = {style.pb1}>content goes here Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit praesentium dicta incidunt aperiam eum. Nobis perspiciatis at non maxime pariatur modi aperiam incidunt quos veniam tempora perferendis repudiandae, animi recusand Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique necessitatibus perspiciatis corporis accusamus,
-          loir</div>
+          <div className = {style.pb1}>Spearheaded the development of multiple high-impact backend systems, designing and deploying over 10+ RESTful APIs for diverse organizational needs. These include a scalable social media backend supporting 1,000+ active users, an SMTP API automating email workflows with 99.9% uptime, and an educational institute API streamlining data management for 1,000+ students. Each project optimized operational efficiency by 30-50%. Additionally, I engineered APIs for AI/ML models, enabling real-time predictions and data insights.</div>
           <div className = {style.subcont1}>
               <div className = {style.icon}>
-              <Link href="https://github.com/cupidmess/current_repo" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/cupidmess/SMTP_api" target="_blank" rel="noopener noreferrer">
                 <FaGithub/>
                 </Link>
                  </div>

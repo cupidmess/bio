@@ -7,7 +7,7 @@ const page3 = () => {
         <div className = {style.left}>
           <div className = {style.heading}>Education</div>
           <div className = {style.linesep}></div>
-          <div className = {style.content}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet massa sed leo molestie ultrices in non mi. Suspendisse mollis nisl ac aliquet pretium. Suspendisse dignissim, odio non hendrerit suscipit, lorem ipsum tempus tortor, suscipit vestibulum velit quam nec nibh.</div>
+          <div className = {style.content}>I&apos;m currently pursuing Computer Engineering at Bharati Vidyapeeth College of Engineering, consistently achieving excellent academic results while actively balancing extracurricular projects and tech initiatives. My journey has been a mix of strong technical learning and hands-on experience, allowing me to grow both as a developer and a problem-solver.</div>
         </div>
         <div className = {style.right}>
           <div className = {style.timeline}>2020-2027</div>
